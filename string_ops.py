@@ -8,3 +8,5 @@ def remove_vowels(s: str) -> str:
         if i == vowels:
             s=s.replace(i,"")
     return s 
+def remove_every_third(s: str) -> tuple[str, list[int], list[str]]:
+    
